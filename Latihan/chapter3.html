@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Media Query</title>
+    <style>
+        /* p { 
+            color:blue;
+        } 
+
+        @media (min-width:1199px){ 
+            p {
+                color:red;
+            } 
+        } */
+
+        p { 
+            color:blue;
+        }
+
+        @media (max-width:768px){ /* medium */
+            p {
+            color:red;
+            } 
+        }
+
+        @media (min-width:769px) and (max-width:991px){ /* small*/
+            p {
+            color:green;
+            } 
+        }
+
+        @media (min-width:992px) and (max-width:1199px){ /* x-small*/
+            p {
+            color:orange;
+            }
+        } 
+
+        @media (min-width:1200px){ /* medium */
+            p {
+            color:blue;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <p>Ini adalah media query</p>
+</body>
+</html>
